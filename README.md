@@ -2,10 +2,12 @@ This is a modern Todo application built using React and Redux Toolkit for effici
 
 It also includes a fully functional dark/light theme toggle powered by Redux and styled using Tailwind CSS.
 
-🔗Live Demo
+##🔗Live Demo 
+https://todo-ashy-rho.vercel.app/
 
+---
+##✨ Features
 
-✨ Features
 - ➕ Add new tasks
 - 🗑 Delete tasks
 - ✅ Mark tasks as completed with checkbox
@@ -14,13 +16,17 @@ It also includes a fully functional dark/light theme toggle powered by Redux and
 - 💾 LocalStorage persistence (tasks survive page refresh)
 - 📱 Responsive UI with Tailwind CSS
 
-🛠 Tech Stack
+---
+##🛠 Tech Stack
+
 - React
 - Redux Toolkit
 - Tailwind CSS
 - Vite
 - Vercel (Deployment)
 
+---
+##Project Structure
 ```
 todo-app/
 │
