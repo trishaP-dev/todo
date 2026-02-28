@@ -14,8 +14,8 @@ function App() {
                 transition-colors duration-500">
       <div className="max-w-3xl mx-auto">
         <ThemeToggle />
-        <h1 className="text-4xl font-bold p-5">TODO</h1>
-        <div className="mt-4 text-sm text-gray-600 dark:text-gray-400">{incompleteCount===0?"All tasks Completed 🎉":`${incompleteCount } task${incompleteCount  !== 1 ? "s" : ""} remaining`}</div>
+        {/* <h1 className="text-4xl font-bold p-5">TOD</h1> */}
+        <div className="pt-17 text-2xl font-bold text-indigo-500">{incompleteCount } task{incompleteCount  !== 1 ? "s" : ""} remaining</div>
         <AddTodo />
         <Todos />
       </div>

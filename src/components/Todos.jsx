@@ -14,7 +14,7 @@ function Todos() {
             className="flex justify-between items-center bg-gray-300 text-black
            dark:bg-gray-800 dark:text-white
            border border-gray-700 dark:border-gray-300
-           px-3 py-2 my-2 rounded transition-colors duration-300"
+           px-3 py-2 my-3 rounded transition-colors duration-300"
             key={todo.id}
           >
             <div className="flex items-center gap-3">
@@ -22,7 +22,7 @@ function Todos() {
                 type="checkbox"
                 checked={todo.completed}
                 onChange={() => dispatch(toggleTodo(todo.id))}
-                className="w-4 h-4 cursor-pointer accent-blue-500 "
+                className="w-4 h-4 cursor-pointer accent-indigo-500 "
               />
               <span
                 className={`${todo.completed ? "line-through opacity-60" : ""}`}
@@ -33,7 +33,7 @@ function Todos() {
             <button
               onClick={() => dispatch(removeTodo(todo.id))}
               className="bg-gray-200 dark:bg-indigo-500
-           text-black dark:text-white
+           text-indigo-500 dark:text-white
            px-4 py-2 rounded
            transition-colors duration-300"
             >

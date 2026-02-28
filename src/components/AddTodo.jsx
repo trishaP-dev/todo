@@ -12,7 +12,7 @@ function AddTodo(){
         setInput('')
     }
     return(
-        <form onSubmit={addTodoHandler} className=" w-full flex gap-3 mt-8 ">
+        <form onSubmit={addTodoHandler} className=" w-full flex gap-3 mt-5 ">
       <input
         type="text"
         className="flex-1 bg-gray-200 dark:bg-gray-800 dark:text-white
@@ -24,7 +24,7 @@ function AddTodo(){
       />
       <button
         type="submit"
-        className="bg-white text-black
+        className="bg-white text-indigo-500
            dark:bg-indigo-500 dark:text-white
            transition-colors duration-300"
       >
